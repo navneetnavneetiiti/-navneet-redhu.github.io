@@ -30,7 +30,7 @@ em { color: var(--red); font-style: italic; }
 .text-link { border-bottom: 1px solid currentColor; padding-bottom: 2px; color: var(--navy); font-size: .82rem; }
 .hero-card { border-top: 1px solid var(--navy); padding-top: 24px; align-self: end; margin-bottom: 28px; }
 .profile-photo { height: 230px; margin-bottom: 30px; position: relative; overflow: hidden; background: var(--navy); display: grid; place-items: center; }
-.profile-photo img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 68%; position: relative; z-index: 1; }
+.profile-photo img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center 68%; filter: brightness(1.04) contrast(1.03) saturate(1.04); position: relative; z-index: 1; }
 .photo-fallback { position: absolute; color: white; font-family: var(--serif); font-size: 5rem; line-height: 1; }
 .card-rule { width: 42px; border-top: 4px solid var(--red); margin-bottom: 28px; }
 .card-label { margin: 0 0 12px; }
